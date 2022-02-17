@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+
+}
+
+header{
+    background-color: black;
+    height: 70px;
+    float: top;
+
+}
+
+.fa-building-o{
+    color: white;
+    height: 50px;
+    width: 50px;
+}
+
+.content{
+    margin: 20px 100px 20px 100px;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Arimo', sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+
+
+
+footer{
+    background-color: black;
+    height: 70px;
+    float: bottom;
+}
