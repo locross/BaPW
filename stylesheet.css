@@ -18,13 +18,12 @@ header{
     margin-top: 10px;
 }
 
-.head_text{
+#head_text{
     color: white;
     font-family: 'Arimo', sans-serif;
     font-size: 30px;
     padding-left: 20px;
 }
-
 
 /* Main */
 #content{
@@ -37,6 +36,14 @@ header{
     margin: 70px 0 70px 0;
 }
 
+.links{
+    height: 100%;
+    width: 33.2%;
+    display: inline-block;
+}
+
+
+/* Top 3 links */
 #toprow_container{
     position: absolute;
     left: 0;
@@ -46,7 +53,19 @@ header{
     width: 100%;
 }
 
+#music{
+    background-color: aqua;
+}
 
+#art{
+    background-color: blue;
+}
+
+#magic{
+    background-color: purple;
+}
+
+/* Bottom 3 links */
 #bottomrow_container{
     position: absolute;
     left: 0;
@@ -57,8 +76,21 @@ header{
     
 }
 
+.links_b{
+    bottom: 0;
+}
 
+#tech{
+    background-color: red;
+}
 
+#food{
+    background-color: green;
+}
+
+#comedy{
+    background-color: orange;
+}
 
 /* Foot */
 footer{
