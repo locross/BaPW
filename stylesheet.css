@@ -3,6 +3,7 @@ body{
 
 }
 
+/* Head */
 header{
     background-color: black;
     top: 0;
@@ -13,26 +14,53 @@ header{
 
 .fa-building-o{
     color: white;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 10px;
-}
-
-.content{
-    margin: 20px 100px 20px 100px;
-
 }
 
 .head_text{
     color: white;
     font-family: 'Arimo', sans-serif;
     font-size: 30px;
-    padding-left: 10px;
-    margin-bottom: 20px;
-    text-decoration: underline;
+    padding-left: 20px;
+}
+
+
+/* Main */
+#content{
+    position: absolute;
+    height: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 70px 0 70px 0;
+}
+
+#toprow_container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 50%;
+    width: 100%;
+}
+
+
+#bottomrow_container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    
 }
 
 
 
+
+/* Foot */
 footer{
     background-color: black;
     position: absolute;
