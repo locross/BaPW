@@ -54,15 +54,18 @@ header{
 }
 
 #music{
-    background-color: aqua;
+    background-image: url("https://manofmany.com/wp-content/uploads/2019/10/32-Best-Music-Festivals-in-Melbourne-FOMO.jpg");
+    background-size: cover;
 }
 
 #art{
-    background-color: blue;
+    background-image: url("https://cdn.concreteplayground.com/content/uploads/2018/12/Borderless-Tokyo-Digital-Art-Museum_flower-forest-5_Sarah-Ward-1920x1440.jpg");
+    background-size: cover;
 }
 
 #magic{
-    background-color: purple;
+    background-image: url("https://fortemag.com.au/wp-content/uploads/2019/05/MELB-MAGIC-FEST-e1557382201657.jpg");
+    background-size: cover;
 }
 
 /* Bottom 3 links */
@@ -76,20 +79,19 @@ header{
     
 }
 
-.links_b{
-    bottom: 0;
-}
-
 #tech{
-    background-color: red;
+    background-image: url("https://miro.medium.com/max/1400/1*fZYt2reJNHM4Od2ZFbGJEg.jpeg");
+    background-size: cover;
 }
 
 #food{
-    background-color: green;
+    background-image: url("https://www.visitbrisbane.com.au/~/media/articles/2019/april/fishlanefestival_20190417_wide.ashx");
+    background-size: cover;
 }
 
 #comedy{
-    background-color: orange;
+    background-image: url("https://cdn.concreteplayground.com/content/uploads/2016/03/Melbourne-International-Comedy-Festival-1920x1440.jpeg");
+    background-size: cover;
 }
 
 /* Foot */
