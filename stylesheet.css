@@ -20,8 +20,8 @@ header{
 
 #head_text{
     color: white;
-    font-family: 'Arimo', sans-serif;
-    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
     padding-left: 20px;
 }
 
@@ -40,6 +40,12 @@ header{
     height: 100%;
     width: 33.2%;
     display: inline-block;
+    transition: 2 ease;
+}
+
+.links:hover{
+    -webkit-filter: blur(3px);
+    transition: 2s ease;
 }
 
 
@@ -94,6 +100,7 @@ header{
     background-size: cover;
 }
 
+
 /* Foot */
 footer{
     background-color: black;
@@ -109,4 +116,8 @@ a{
     display: inline-block;
     margin-right: 20px;
     margin-top: 20px;
+}
+
+.footer_links{
+    padding-top: 5px;
 }
