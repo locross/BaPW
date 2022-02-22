@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-
+    background-color: black;
 }
 
 /* Head */
@@ -38,16 +38,39 @@ header{
 
 .links{
     height: 100%;
-    width: 33.2%;
+    width: 33.3%; 
     display: inline-block;
-    transition: 2 ease;
+    position: absolute;
+    text-align: center;
+    
 }
 
-.links:hover{
-    -webkit-filter: blur(3px);
+.blur{
+    position: relative;
+    height: 100%;
+    background-size: cover;
     transition: 2s ease;
+    transition: 2s ease-out;
 }
 
+.blur:hover{
+    filter: blur(3px);
+    transition: 2s ease;
+    transition: 2s ease-out;
+}
+
+.links:hover button {
+    display: block;
+
+}
+
+button{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    margin-top: 35%;
+    display: none;
+}
 
 /* Top 3 links */
 #toprow_container{
@@ -59,18 +82,29 @@ header{
     width: 100%;
 }
 
-#music{
+#music_position{
+    left: 0;
+    margin-left: 0.1%
+}
+#music_background{
     background-image: url("https://manofmany.com/wp-content/uploads/2019/10/32-Best-Music-Festivals-in-Melbourne-FOMO.jpg");
-    background-size: cover;
 }
 
-#art{
+#art_position{
+    margin: 0 33.4%;
+}
+#art_background{
     background-image: url("https://cdn.concreteplayground.com/content/uploads/2018/12/Borderless-Tokyo-Digital-Art-Museum_flower-forest-5_Sarah-Ward-1920x1440.jpg");
-    background-size: cover;
+    height: 100%;
 }
 
-#magic{
+#magic_position{
+    right: 0;
+    margin-right: 0.1%
+}
+#magic_background{
     background-image: url("https://fortemag.com.au/wp-content/uploads/2019/05/MELB-MAGIC-FEST-e1557382201657.jpg");
+    height: 100%;
     background-size: cover;
 }
 
@@ -82,24 +116,30 @@ header{
     bottom: 0;
     height: 50%;
     width: 100%;
-    
 }
 
-#tech{
+#tech_position{
+    left: 0;
+    margin-left: 0.1%
+}
+#tech_background{
     background-image: url("https://miro.medium.com/max/1400/1*fZYt2reJNHM4Od2ZFbGJEg.jpeg");
-    background-size: cover;
 }
 
-#food{
-    background-image: url("https://www.visitbrisbane.com.au/~/media/articles/2019/april/fishlanefestival_20190417_wide.ashx");
-    background-size: cover;
+#food_position{
+    margin: 0 33.4%;
+}
+#food_background{
+    background-image: url("https://www.visitbrisbane.com.au/~/media/articles/2019/april/fishlanefestival_20190417_wide.ashx");   
 }
 
-#comedy{
+#comedy_position{
+    right: 0;
+    margin-right: 0.1%
+}
+#comedy_background{
     background-image: url("https://cdn.concreteplayground.com/content/uploads/2016/03/Melbourne-International-Comedy-Festival-1920x1440.jpeg");
-    background-size: cover;
 }
-
 
 /* Foot */
 footer{
