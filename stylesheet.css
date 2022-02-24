@@ -83,7 +83,7 @@ button{
     font-size: 20px;
 }
 
-iframe{
+.frame_container{
     width: 100%;
     height: 90vh;
     border: 0;
